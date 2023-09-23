@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<HTML>
+   <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+     <link href="Styles" rel="stylesSheet">
+      <title>Vendor Setup</title>
+   </head>   
+        <body>
+            <h1>Vendor and customer setup</h1>
+            <form>
+               <fieldset>   
+                  <label for="custName">Please enter the name of the company you are applying for. <input id="custName" required></label>
+                  <label for="custLocation">Enter the adress here. <input id="custLocation" required> </label>
+                  <label for="custEmail">Enter company email here. <input id="custEmail" type="email" required></label>
+                  <label for="Decription">Please provide a bref decreiption on what your company does <input required id="Decreiption"></label>
+               </fieldset>
+            <section>
+               <h2>Certs</h2> <!--idk if jack wants to add a link for this like he does with the vendor setup fourm-->
+               <a href=""></a><!--this will be a link for a download that will download the fourm vendor setup-->
+               <fieldset>
+                  <label for="CS pipe">CS pipe <input type="radio" id="CS pipe" required></label> <!--these nees to be all checkboxs and will be styled into boxes that are sorted into a grid-->
+                  <label for="SS pipe">SS pipe <input type="radio" id="SS pipe" required></label>
+                  <label for="CS elbow">CS elbow <input type="radio" id="CS elbow" required></label>
+                  <label for="Duplex pipe">Duplex pipe <input type="radio" id="Duplex pipe" required></label>
+                  <label> placement<input type="radio" required></label>
+                  <label> placement<input type="radio" required></label>
+                  <label> placement<input type="radio" required></label>
+                  <label> placement<input type="radio" required></label>
+               </fieldset>
+            </section>
+            </form>
+      </body>
+</HTML>
